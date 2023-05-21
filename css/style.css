@@ -13,7 +13,9 @@
 html {
   overflow-x: hidden;
 }
-
+.logo {
+  width: 200px;
+}
 .download-btn-first {
   background: #f7f7f7;
 }
@@ -35,7 +37,7 @@ html {
 #fh5co-hero-wrapper {
   height: 800px;
   width: 100%;
-  background: url("../img/banner-bg.jpg") no-repeat center;
+  background: #3f71de no-repeat center;
   border-radius: 0 0 50% 50% / 4%;
 }
 
@@ -52,15 +54,15 @@ html {
 }
 .main-navbar-nav li {
   color: #fff;
-  opacity: .7;
+  opacity: 0.7;
 }
 .main-navbar-nav .navbar-nav .nav-item a:hover {
   color: #234197 !important;
-  -webkit-transition: all .33s ease;
-  -moz-transition: all .33s ease;
-  -o-transition: all .33s ease;
-  -ms-transition: all .33s ease;
-  transition: all .33s ease;
+  -webkit-transition: all 0.33s ease;
+  -moz-transition: all 0.33s ease;
+  -o-transition: all 0.33s ease;
+  -ms-transition: all 0.33s ease;
+  transition: all 0.33s ease;
 }
 .main-navbar-nav .active {
   color: #fff !important;
@@ -82,12 +84,12 @@ html {
 }
 
 .social-icons-header a:hover i {
-  opacity: .6;
-  -webkit-transition: all .2s ease;
-  -moz-transition: all .2s ease;
-  -o-transition: all .2s ease;
-  -ms-transition: all .2s ease;
-  transition: all .2s ease;
+  opacity: 0.6;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .fh5co-hero-inner {
@@ -139,7 +141,7 @@ html {
   overflow: hidden;
 }
 .fh5co-advantages-outer .span-perfect {
-  color: #648cff;
+  color: #3f71de;
   text-transform: uppercase;
   font-size: 27px;
   letter-spacing: 1px;
@@ -165,7 +167,7 @@ html {
   padding-right: 30px;
   position: relative;
   top: 1px;
-  color: #648cff;
+  color: #3f71de;
 }
 .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-title {
   float: left;
@@ -196,14 +198,15 @@ html {
   padding: 70px;
 }
 .fh5co-slider-outer h1 {
-  color: #648cff;
+  color: #3f71de;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 10px;
   text-align: center;
 }
-.fh5co-slider-outer > h1, .fh5co-slider-outer small {
+.fh5co-slider-outer > h1,
+.fh5co-slider-outer small {
   text-align: center;
   display: block;
 }
@@ -257,7 +260,7 @@ html {
   position: relative;
 }
 .fh5co-features-outer .sm-6-content h1 {
-  color: #648cff;
+  color: #3f71de;
   text-transform: uppercase;
   font-size: 25px;
   font-weight: 600;
@@ -413,7 +416,7 @@ html {
   margin-top: 100px;
 }
 .fh5co-reviews-outer > h1 {
-  color: #648cff;
+  color: #3f71de;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 600;
@@ -439,7 +442,7 @@ html {
 .fh5co-bottom-outer {
   width: 100%;
   height: 572px;
-  background: url("../img/download-section-bg.jpg") no-repeat center;
+  background: url("../img/download-section-bg.png") no-repeat center;
   margin-top: 120px;
   overflow-x: hidden;
 }
@@ -462,7 +465,7 @@ html {
   margin-top: 25px;
 }
 
-   /* ==========================================================================================================
+/* ==========================================================================================================
 										SUB FOOTER
    ========================================================================================================== */
 .img-float-left {
@@ -489,12 +492,12 @@ html {
   font-size: 20px;
 }
 .footer-outer .social-icons-footer a:hover i {
-  opacity: .6;
-  -webkit-transition: all .2s ease;
-  -moz-transition: all .2s ease;
-  -o-transition: all .2s ease;
-  -ms-transition: all .2s ease;
-  transition: all .2s ease;
+  opacity: 0.6;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 .footer-outer .footer-three-grid {
   width: 1140px;
@@ -531,9 +534,9 @@ html {
 .footer-outer .column-3-3 .social-icons-header a:hover {
   color: #fff;
   opacity: 1;
-  -webkit-transition: color .2s ease;
-  -o-transition: color .2s ease;
-  transition: color .2s ease;
+  -webkit-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  transition: color 0.2s ease;
 }
 .footer-outer .footer-nav ul {
   list-style: none;
@@ -548,9 +551,9 @@ html {
 }
 .footer-outer .footer-nav ul li:hover {
   color: #fff;
-  -webkit-transition: color .2s ease-in-out;
-  -o-transition: color .2s ease-in-out;
-  transition: color .2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 .footer-outer .footer-nav ul .active {
   color: #fff;
@@ -730,7 +733,8 @@ html {
     float: none;
   }
 
-  .fh5co-features-outer .col-sm-6 .span-percent, .fh5co-features-outer .col-sm-6 .span-free {
+  .fh5co-features-outer .col-sm-6 .span-percent,
+  .fh5co-features-outer .col-sm-6 .span-free {
     left: -15px;
     bottom: 140px;
   }
